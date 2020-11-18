@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hiredis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\hiredis\;CMake Files\deps\linenoise\;CMake Files\deps\lua\;CMake Files\src\;CMake Files\src\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis.c">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/libhiredis.c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis.c"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis.c/fast">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/libhiredis.c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis.c/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhujiaming/redis-6.0.4/deps/hiredis/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test/fast">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhujiaming/redis-6.0.4/deps/hiredis/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/libhiredis.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhujiaming/redis-6.0.4/deps/hiredis/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/Users/zhujiaming/redis-6.0.4/deps/hiredis/libhiredis.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhujiaming/redis-6.0.4/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhujiaming/redis-6.0.4/deps/hiredis/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhujiaming/redis-6.0.4/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/async.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/async.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/dict.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/dict.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/hiredis.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/hiredis.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/net.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/net.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/read.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/read.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/sds.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/sds.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/sockcompat.c">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/sockcompat.h">
+			<Option target="hiredis.c"/>
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/test.c">
+			<Option target="hiredis-test"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/hiredis/hiredis.pc.in">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/linenoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\linenoise\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/deps/lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\lua\"/>
+		</Unit>
+		<Unit filename="/Users/zhujiaming/redis-6.0.4/src/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
